@@ -10,4 +10,4 @@ if ( env.BRANCH_NAME.equalsIgnoreCase('master') ){
 }
 else{
     pipelineDecision.applicationPipeline(configMap)
-} 
+}
